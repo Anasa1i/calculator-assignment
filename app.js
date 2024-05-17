@@ -7,7 +7,7 @@ let buttons = document.querySelectorAll('button');  // nodelist bnadi
 let buttonsArray = Array.from(buttons)
 // console.log(buttonsArray) // ok - prototype arrays
 
-let string = '';
+let string = '';     
 
 buttonsArray.forEach(function (btn) {
     // console.log(btn) // separate arrays
